@@ -1,0 +1,63 @@
+[
+  {
+    "id": "deepseek-v4.1-flash",
+    "retries": [
+      {
+        "turn": "records",
+        "attempt": 1,
+        "error": "Model reached output ceiling"
+      }
+    ],
+    "excluded_incomplete_attempts": 0
+  },
+  {
+    "id": "gpt-6-astra",
+    "retries": [
+      {
+        "turn": "genuine",
+        "attempt": 1,
+        "error": "Request reached local input size ceiling"
+      },
+      {
+        "turn": "genuine",
+        "attempt": 2,
+        "error": "Request reached local input size ceiling"
+      },
+      {
+        "turn": "genuine",
+        "attempt": 3,
+        "error": "Request reached local input size ceiling"
+      }
+    ],
+    "excluded_incomplete_attempts": 0
+  },
+  {
+    "id": "gemini-4-carbon",
+    "retries": [
+      {
+        "turn": "records",
+        "attempt": 1,
+        "error": "Model reached output ceiling"
+      },
+      {
+        "turn": "basis",
+        "attempt": 1,
+        "error": "Model reached output ceiling"
+      },
+      {
+        "turn": "basis",
+        "attempt": 2,
+        "error": "Model reached output ceiling"
+      },
+      {
+        "turn": "basis",
+        "attempt": 3,
+        "error": "Model reached output ceiling"
+      }
+    ],
+    "excluded_incomplete_attempts": 0,
+    "incomplete_at": "basis",
+    "last_attempted_turn": "basis",
+    "outcome": "Session stopped after three attempts at the first payment question reached the 16,384-token output limit and a retry with a 65,536-token allowance remained unanswered."
+  }
+]

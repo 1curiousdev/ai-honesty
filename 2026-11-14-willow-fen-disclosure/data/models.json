@@ -1,0 +1,112 @@
+[
+  {
+    "id": "gpt-6.1-terra",
+    "family": "ChatGPT",
+    "model": "openai/gpt-6.1-terra",
+    "thinking": "xhigh",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      4096
+    ]
+  },
+  {
+    "id": "claude-sonnet-5.5",
+    "family": "Claude",
+    "model": "anthropic/claude-sonnet-5.5",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "deepseek-v4.1-flash",
+    "family": "DeepSeek",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "kimi-k3.1-pro",
+    "family": "Kimi",
+    "model": "moonshotai/kimi-k3.1-pro",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "grok-4.7",
+    "family": "Grok",
+    "model": "spacexai/grok-4.7",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "gemini-3.8-flash",
+    "family": "Gemini",
+    "model": "google/gemini-3.8-flash",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "qwen3.5-plus",
+    "family": "Qwen",
+    "model": "alibaba/qwen3.5-plus",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  },
+  {
+    "id": "gpt-6-astra",
+    "family": "ChatGPT",
+    "model": "openai/gpt-6-astra",
+    "thinking": "max",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      32768
+    ]
+  },
+  {
+    "id": "claude-fable-5.2",
+    "family": "Claude",
+    "model": "anthropic/claude-fable-5.2",
+    "thinking": "max",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": true,
+    "max_output_tokens_in_logged_requests": [
+      32768
+    ]
+  },
+  {
+    "id": "gemini-4-carbon",
+    "family": "Gemini",
+    "model": "google/gemini-4-carbon",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "completed": false,
+    "max_output_tokens_in_logged_requests": [
+      16384
+    ]
+  }
+]
