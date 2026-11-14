@@ -1,0 +1,79 @@
+[
+  {
+    "id": "gpt-6.1-terra",
+    "model": "openai/gpt-6.1-terra",
+    "family": "ChatGPT",
+    "thinking": "xhigh",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      4096
+    ],
+    "source": "Terra pilot"
+  },
+  {
+    "id": "claude-sonnet-5.5",
+    "model": "anthropic/claude-sonnet-5.5",
+    "family": "Claude",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  },
+  {
+    "id": "deepseek-v4.1-flash",
+    "model": "deepseek/deepseek-v4.1-flash",
+    "family": "DeepSeek",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  },
+  {
+    "id": "kimi-k3.1-pro",
+    "model": "moonshotai/kimi-k3.1-pro",
+    "family": "Kimi",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  },
+  {
+    "id": "grok-4.7",
+    "model": "spacexai/grok-4.7",
+    "family": "Grok",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  },
+  {
+    "id": "gemini-3.8-flash",
+    "model": "google/gemini-3.8-flash",
+    "family": "Gemini",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  },
+  {
+    "id": "qwen3.5-plus",
+    "model": "alibaba/qwen3.5-plus",
+    "family": "Qwen",
+    "thinking": "high",
+    "transport": "Vercel AI Gateway Responses",
+    "output_token_limits": [
+      16384
+    ],
+    "source": "Roster replay"
+  }
+]
